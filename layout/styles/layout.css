@@ -1,12 +1,4 @@
 @charset "utf-8";
-/*
-Template Name: Oleald
-Author: <a href="http://www.os-templates.com/">OS Templates</a>
-Author URI: http://www.os-templates.com/
-Licence: Free to use under our free template licence terms
-Licence URI: http://www.os-templates.com/template-terms
-File: Layout CSS
-*/
 
 @import url("font-awesome.min.css");
 @import url("framework.css");
@@ -146,7 +138,6 @@ This gives a smooth transition to "ALL" elements used in the layout - other than
 If you don't want it to fade all elements, you have to list the ones you want to be faded individually
 Delete it completely to stop fading
 --------------------------------------------------------------------------------------------------------------- */
-*, *::before, *::after{transition:all .3s ease-in-out;}
 #mainav form *{transition:none !important;}
 
 
@@ -444,4 +435,21 @@ table a, #comments a{background-color:inherit;}
 
 	.font-x2{font-size:1.4rem;}
 	.font-x3{font-size:1.6rem;}
+}
+
+
+
+.bgded.light {
+	background-image:url('../../images/demo/backgrounds/01.png');
+	background-position: center;"
+}
+
+[data-sticky-ui] {
+	position: absolute;
+}
+
+.stickyActive {
+	position: fixed;
+	width: 100%;
+	z-index: 100;
 }
